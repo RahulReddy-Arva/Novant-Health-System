@@ -1,0 +1,73 @@
+
+
+#content1 {
+	float:left;
+        top:175px; right:300px;
+	left: 200px;
+	padding-right: 10px;
+
+}
+.shadowblockmenu-v{
+  
+    right:200px;
+    background: whitesmoke;
+font: bold 14px Germand;
+width: 270px; /* width of menu */
+}
+
+.shadowblockmenu-v ul{
+
+    border: 2px solid #eee;
+padding: 0;
+margin: 0;
+list-style:circle;
+width: 270px;
+top:175px; right:200px;
+left: 400px;
+}
+
+.shadowblockmenu-v ul li{
+
+    margin:0;
+padding:0;
+width: 270px;
+left: 400px;
+top:175px; right:200px;
+
+}
+
+.shadowblockmenu-v ul li a{
+    
+    
+    background: white;
+display:block;
+text-transform: uppercase;
+color:#494949;
+padding: 10px 15px;
+text-decoration: none;
+border-bottom: 2px solid #cacaca;
+border-right: 2px solid #cacaca; /*right border between menu items*/
+-moz-box-shadow: inset 7px 0 10px rgba(114,114,114, 0.6); /* Add inset shadow to each menu item. First 3 values in (114,114,114, 0.5) specifies rgb values, last specifies opacity */
+-webkit-box-shadow: inset 7px 0 10px rgba(114,114,114, 0.6);
+box-shadow: inset 7px 0 10px rgba(114,114,114, 0.6);
+text-shadow: 0 -1px 1px #cfcfcf; /* CSS text shadow to give text some depth */
+-moz-transition: all 0.2s ease-in-out; /* Enable CSS transition between property changes */
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+
+    font-family: 'Times New Roman',Times,serif;
+}
+
+.shadowblockmenu-v ul li a:hover, .shadowblockmenu-v ul li a.selected{
+   
+
+    color:black;
+
+-moz-box-shadow: inset 7px 0 10px rgba(216,89,39, 0.5), inset 0 0 15px rgba(216,89,39, 0.6), inset 0 0 20px rgba(216,89,39, 0.8); /* Add 3 inset shadows to each menu item  */
+-webkit-box-shadow: inset 7px 0 10px rgba(216,89,39, 0.5), inset 0 0 15px rgba(216,89,39, 0.6), inset 0 0 20px rgba(216,89,39, 0.8);
+box-shadow: inset 7px 0 10px rgba(216,89,39, 0.5), inset 0 0 15px rgba(216,89,39, 0.6), inset 0 0 20px rgba(216,89,39, 0.8);
+}
+
+
